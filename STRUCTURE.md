@@ -45,3 +45,38 @@ docker compose down
 ```console
 docker stop .
 ```
+   
+---   
+
+## Production Dockerfile (с подробным объяснением)   
+
+- [`Node.js`]() - Production, Multi-stage, non-root
+- [`Python`]() - FastAPI / Django, Gunicorn
+- [`Java`]() - Spring Boot, Multi-stage, JAR
+- [`Go`]() - минимальный production
+- [`Nginx`]() - frontend build + serve
+- [`PHP`]() - Laravel + FPM
+- [`PostgreSQL`]() - кастомный PostgreSQL (Автоматический init при первом запуске.)
+- [`Redis`]() - Redis с конфигом
+- [`Rust`]() - Rust multi-stage
+- [`Universal template`]() - универсальный шаблон под debian
+- [`Node.js + Prisma + Alpine + Healthcheck`]()
+- [`Python + Poetry + Multi-stage`]()
+- [`Java + Gradle + Layered JAR`]()
+- [`Go + distroless`]()
+- [`ASP.NET Core (Production)`]()
+- [`Ruby on Rails`]()
+- [`C++ + Multi-stage`]()
+- [`Alpine + Cron Job container`]()
+- [`Terraform container`]()
+- [`Ansible automation container`]()
+- [`Kafka Client container`]()
+- [`Alpine Debug image`]()
+- [`Multi-arch build example`]()
+- [`React + Nginx + Gzip config`]()
+- [`PostgreSQL + custom extensions`]()
+- [`MongoDB custom init`]()
+- [`Python Celery Worker`]()
+- [`Nginx reverse proxy secure`]()
+- [`Generic hardened base template`]()
+- [``]()
