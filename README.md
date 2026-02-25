@@ -18,11 +18,11 @@ Cтруктурированная коллекция шаблонов Dockerfile
 
 Наша цель - перейти от:
 
-> "I can run docker build"
+> "Я могу собрать образ в docker"
 
 к
 
-> "I understand container architecture and production patterns."
+> "Я разбираюсь в архитектуре контейнеров и паттернах прода"
 
 ---
 
